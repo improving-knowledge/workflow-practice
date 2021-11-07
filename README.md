@@ -25,7 +25,7 @@ git add -A
 git add --all
 ```
 #### Permite ver la informacion de los cambios hechos. Ejemplo:
-``Shell
+```Shell
 git log
 git log --name-status
 ```
