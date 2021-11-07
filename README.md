@@ -26,3 +26,8 @@ git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt
 git add -A
 git add --all
 ```
+#### El comando git log y git log --name-status permite ver informacion de los cambios hechosEjemplo: 
+```Shell
+git log
+git log --name-status
+```
