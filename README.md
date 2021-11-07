@@ -35,3 +35,8 @@ git log --name-status
 ####se irán guardando los cambios que se hagan sobre el archivo. Ejemplo:
 ```Shell
 git init
+```
+#### El comando git commit abre un editor de texto que pedirá un mensaje de confirmación, asi se confirma la instantánea preparada en el proyecto. Ejemplo:
+```Shell
+git commit
+```
