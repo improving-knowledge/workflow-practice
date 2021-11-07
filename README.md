@@ -8,5 +8,7 @@
 git clone git@github.com:pulidovpe/practica_workflow.git
 ```
 
-Comandos GIT importantes
-El comando git status me permite ver el estado de mi repositorio
+#### El comando git status muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados. 
+```Shell
+git status
+```
