@@ -7,5 +7,6 @@
 ```Shell
 git clone git@github.com:pulidovpe/practica_workflow.git
 ```
+
 Comandos GIT importantes
 El comando git status me permite ver el estado de mi repositorio
