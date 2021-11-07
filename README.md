@@ -16,3 +16,16 @@ git status
 ```Shell
 git add
 ```
+#### El comando git add archivo.txt para agregar un nuevo archivo o uno modificado. Ejemplo: 
+```Shell
+git add archivo.txt
+```
+#### El comando git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt Ejemplo: 
+```Shell
+git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt
+```
+#### El comando git add -A  y git add --all para agregar todos los archivos del proyecto Ejemplo: 
+```Shell
+git add -A
+git add --all
+```
