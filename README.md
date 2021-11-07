@@ -12,10 +12,7 @@ git clone git@github.com:pulidovpe/practica_workflow.git
 ```Shell
 git status
 ```
-#### El comando git add puede recibir tanto una ruta de archivo como de un directorio; si es de un directorio, el comando añade recursivamente los archivos que están dentro de él. Ejemplo: 
-```Shell
-git add
-```
+
 #### El comando git add archivo.txt para agregar un nuevo archivo o uno modificado. Ejemplo: 
 ```Shell
 git add archivo.txt
