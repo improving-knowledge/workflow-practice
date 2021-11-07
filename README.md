@@ -7,5 +7,6 @@
 ```Shell
 git clone git@github.com:pulidovpe/practica_workflow.git
 ```
-El comando "git init" se utiliza para activar git. crea una zona llamada staging dentro de la memoria RAM donde
-se irán guardando los cambios que se hagan sobre el archivo.
+
+Comandos GIT importantes
+El comando git status me permite ver el estado de mi repositorio
