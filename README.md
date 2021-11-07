@@ -7,12 +7,10 @@
 ```Shell
 git clone git@github.com:pulidovpe/practica_workflow.git
 ```
-
 #### Muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados. Ejemplo:
 ```Shell
 git status
 ```
-
 #### Para agregar un nuevo archivo o uno modificado. Ejemplo: 
 ```Shell
 git add archivo.txt
@@ -27,7 +25,11 @@ git add -A
 git add --all
 ```
 #### Permite ver la informacion de los cambios hechos. Ejemplo: 
-```Shell
+``Shell
 git log
 git log --name-status
 ```
+#### El comando git init se utiliza para iniciar git. Crea una zona llamada staging dentro de la memoria RAM donde
+####se irán guardando los cambios que se hagan sobre el archivo. Ejemplo:
+```Shell
+git init
