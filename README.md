@@ -31,8 +31,7 @@ git add --all
 git log
 git log --name-status
 ```
-#### El comando git init se utiliza para iniciar git. Crea una zona llamada staging dentro de la memoria RAM donde
-####se irán guardando los cambios que se hagan sobre el archivo. Ejemplo:
+#### Para iniciar GIT en la carpeta donde esta el proyecto. Ejemplo:
 ```Shell
 git init
 ```
