@@ -29,7 +29,7 @@ git add --all
 git log
 git log --name-status
 ```
-#### Para iniciar GIT en la carpeta donde esta el proyecto. Ejemplo:
+#### Para iniciar GIT en la carpeta donde esta el proyecto (Se usa una sola vez). Ejemplo:
 ```Shell
 git init
 ```
