@@ -35,7 +35,26 @@ git log --name-status
 ```Shell
 git init
 ```
-#### El comando git commit abre un editor de texto que pedirá un mensaje de confirmación, asi se confirma la instantánea preparada en el proyecto. Ejemplo:
+#### Para confirmar la instantánea preparada en el proyecto mediante un mensaje de confirmación. Ejemplo:
 ```Shell
 git commit
 ```
+#### Para cargar en el HEAD los cambios realizados y establecer el mensaje del commit. Ejemplo:
+```ssh
+	git commit -m "Texto que identifique por que se hizo el commit"
+  git commit -m "Modificando archivo README.md"
+```
+#### Agregar y Cargar en el HEAD los cambios realizados. El parametro `-a o --all` confirma todos los archivos en el área de trabajo (esos nuevos, con modificaciones, o incluso eliminados) automáticamente. Ejemplo:
+```ssh
+	git commit -a -m "Texto que identifique por que se hizo el commit"
+  git commit -a -m "Modificando archivo README.md"
+```
+#### Para ver conflictos (de haberlos). Ejemplo:
+```ssh
+	git commit -a
+```
+#### Para reescribir el último commit con cualquier cambio que esté en el área de preparación o un nuevo mensaje. Ejemplo:
+```ssh
+	git commit --amend -m "Texto que identifique por que se hizo el commit"
+  git commit --amend -m "Mejorando la lista de comandos git"
+  ```
