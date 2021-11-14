@@ -25,9 +25,13 @@ git add -A
 git add --all
 ```
 #### Permite ver la informacion de los cambios hechos. Ejemplo:
-``Shell
+```Shell
 git log
 git log --name-status
+```
+#### El comando git init se utiliza para iniciar git. Crea una zona llamada staging dentro de la memoria RAM donde se irán guardando los cambios que se hagan sobre el archivo. Ejemplo:
+```Shell
+git init
 ```
 #### Para iniciar GIT en la carpeta donde esta el proyecto (Se usa una sola vez). Ejemplo:
 ```Shell
@@ -55,4 +59,275 @@ git commit -a
 ```ssh
 git commit --amend -m "Texto que identifique por que se hizo el commit"
 git commit --amend -m "Mejorando la lista de comandos git"
+```
+
+
+Notas personales de Jaimar Angulo
+
+Comandos en Git
+
+#### Para ver la version de git. Ejemplo:
+```Shell
+git version
+```
+#### Para ver solo el commit con el nombre. Ejemplo:
+```Shell
+git log --oneline
+```
+#### Para copiar un repositorio. Ejemplo:
+```Shell
+git clone <url>
+```
+#### Para subir al repositorio. Ejemplo:
+```Shell
+git push origin master
+```
+#### Para reeditar el ultimo commit. Ejemplo:
+```Shell
+git commit --amend -m "Texto que identifique porque se hizo el commit "
+```
+
+GIT HEAD
+
+#### Saca un archivo del commit. Ejemplo:
+```Shell
+git reset Head <Archivo>
+```
+#### Devuelve el ultimo commit que se hizo y pone los cambios en staging. Ejemplo:
+```Shell
+git reset --soft HEAD^
+```
+#### Devuelve el ultimo commit y todos los cambios. Ejemplo:
+```Shell
+git reset --hard HEAD^
+```
+#### Devuelve los 2 ultimo commit y todos los cambios. Ejemplo:
+```Shell
+git reset --hard HEAD^^
+```
+
+
+GIT REMOTE
+
+#### Agregar repositorio remoto. Ejemplo:
+```Shell
+git remote add origin <url>
+```
+#### Cambiar de remote. Ejemplo:
+```Shell
+git remote set-url origin <url>
+```
+#### Remover repositorio. Ejemplo:
+```Shell
+git remote rm <name/origin>
+```
+#### Muestra lista repositorios. Ejemplo:
+```Shell
+git remote -v
+```
+#### Muestra los branches remotos. Ejemplo:
+```Shell
+git remote show origin
+```
+#### Limpiar todos los branches eliminados. Ejemplo:
+```Shell
+git remote prune origin
+```
+
+
+GIT BRANCH
+
+#### Crea un branch. Ejemplo:
+```Shell
+git branch <nameBranch>
+```
+#### Lista los branches. Ejemplo:
+```Shell
+git branch
+```
+#### Elimina el branch y lo une al master. Ejemplo:
+```Shell
+git branch -d <nameBranch>
+```
+#### Elimina sin preguntar. Ejemplo:
+```Shell
+git branch -D <nameBranch>
+```
+
+
+GIT TAG
+
+#### Muestra la lista de todos los tags. Ejemplo:
+```Shell
+git tag
+```
+
+#### Crea un nuevo tag. Ejemplo:
+```Shell
+git tag -a <version> -m "esta es la version x"
+```
+GIT REBASE
+Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al dia con el master sin afectar al mismo.
+
+
+#### Une el branch actual con el master, esto no se puede ver como un merge. Ejemplo:
+```Shell
+git rebase
+```
+#### Cuando se produce un conflicto nos da las siguientes opciones: Cuando resolvemos los conflictos --continue continua la secuencia del rebase donde se pauso. Ejemplo:
+```Shell
+git rebase --continue
+```
+#### Omite el conflicto y sigue su camino. Ejemplo:
+```Shell
+git rebase --skip
+```
+#### Devuelve todo al principio del rebase
+```Shell
+git rebase --abort
+```
+#### Para hacer un rebase a un branch en especifico. Ejemplo:
+```Shell
+git rebase <nameBranch>
+```
+
+
+OTROS COMANDOS
+
+#### Lista un estado actual del repositorio con lista de archivos modificados o agregados. Ejemplo:
+```Shell
+git status
+```
+#### Quita del HEAD un archivo y le pone el estado de no trabajado. Ejemplo:
+```Shell
+git checkout -- <file>
+```
+#### Une el branch actual con el master, esto no se puede ver como un merge. Ejemplo:
+```Shell
+git rebase
+```
+#### Crea un branch en base a uno oneline. Ejemplo:
+```Shell
+git checkout -b newlocalbranchname origin/branch-name
+```
+#### Busca los cambios nuevos y actualiza el repositorio. Ejemplo:
+```Shell
+git pull
+```
+#### Cambiar de branch. Ejemplo:
+```Shell
+git checkout <nameBranch/tagname>
+```
+#### Une el branch actual con el especificado. Ejemplo:
+```Shell
+git merge <nameBranch>
+```
+#### Verifica cambios en el repositorio oneline con el local. Ejemplo:
+```Shell
+git fetch
+```
+#### Borrar un archivo del repositorio. Ejemplo:
+```Shell
+git rm <archivo>
+```
+### **Notas personales de: Bresmar Bermúdez**:
+>*Comandos aprendidos en el curso de Git y Github*
+
+**COMANDOS PARA LA INTERACCIÓN BÁSICA**:
+
+#### Agregar un archivo a ser preparado para un commit. Ejemplo:
+```Shell
+git add <Nombre del archivo>
+git add index.html
+```
+#### Agregar todos los archivos con cambios para un commit. Ejemplo:
+```Shell
+git add -A
+```
+#### Cargar en el HEAD los cambios realizados. Ejemplo:
+```Shell
+git commit -m "texto relacionado con el cambio registrado"
+git commit -m "Archivo index.html modificado"
+```
+#### Ver el estado del repositorio con una lista de archivos cambiados o agregados. Ejemplo:
+```Shell
+git status
+```
+
+**CONFIGURACIÓN BÁSICA:**
+
+#### Configurar el nombre que sale en los commits. Ejemplo:
+```Shell
+git config --global user.name "Bresmar Cortez"
+```
+#### Configurar Email. Ejemplo:
+```Shell
+git config --global user.email Bresmarcortez@gmail.com
+```
+
+**OTROS COMANDOS:**
+
+#### Ver el historial de los commit hechos. Ejemplo:
+```Shell
+git log
+git log --oneline
+git log --oneline --graph
+```
+#### Borrar un commit (se borrará todo desde el id del commit selccionado para arriba). Ejemplo:
+```Shell
+git reset --hard <id del commit>
+git reset --hard 0beefde
+```
+#### Crear ramas. Ejemplo:
+```Shell
+git branch <Nombre de la rama>
+git branch Pokmont
+```
+#### Ver una lista de las ramas creadas. Ejemplo:
+```Shell
+git branch
+```
+#### Para desplazarte entre las ramas creadas. Ejemplo:
+```Shell
+git checkout <Nombre de la rama a donde se desea desplazar>
+git checkout Pokmont  
+```
+#### Borrar una rama. Ejemplo:
+```Shell
+git branch -d <Nombre de la rama>
+git branch -d Pokmont
+```
+#### Hacer fusion. Ejemplo:
+```Shell
+git merge <Rama que se desea fusionar>
+git merge pokmont
+```
+#### Para clonar o copiar un repositorio. Ejemplo:
+```Shell
+git clone <URL del repositorio>
+git clone  https://github.com/Bresmar/workflow-practice.git
+```
+#### Subir la rama master del proyecto local al repositorio remoto. Ejemplo:
+```Shell
+git push origin master
+```
+#### Bajar los cambios del repositorio remoto al proyecto local. Ejemplo:
+```Shell
+git pull
+```
+#### Observar la lista de remotos conectados. Ejemplo:
+```Shell
+git remote -v
+```
+#### Guardar los cambios temporalmente, para luego utilizarlos en cualquier rama. Ejemplo:
+```Shell
+git stash
+```
+#### Observar cambios en un archivo. Ejemplo:
+```Shell
+git diff
+```
+#### Verifica cambios en el repositorio online con el local. Ejemplo:
+```Shell
+git fetch
 ```
