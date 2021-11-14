@@ -7,31 +7,29 @@
 ```Shell
 git clone git@github.com:pulidovpe/practica_workflow.git
 ```
-
-#### El comando git status muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.
+#### Muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados. Ejemplo:
 ```Shell
 git status
 ```
-
-#### El comando git add archivo.txt para agregar un nuevo archivo o uno modificado. Ejemplo:
+#### Para agregar un nuevo archivo o uno modificado. Ejemplo:
 ```Shell
 git add archivo.txt
 ```
-#### El comando git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt Ejemplo:
+#### Para agregar varios archivos. Ejemplo:
 ```Shell
 git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt
 ```
-#### El comando git add -A  y git add --all para agregar todos los archivos del proyecto Ejemplo:
+#### Para agregar todos los archivos del proyecto. Ejemplo:
 ```Shell
 git add -A
 git add --all
 ```
-#### El comando git log y git log --name-status permite ver informacion de los cambios hechosEjemplo:
-```Shell
+#### Permite ver la informacion de los cambios hechos. Ejemplo:
+``Shell
 git log
 git log --name-status
 ```
-#### Para iniciar GIT en la carpeta donde esta el proyecto. Ejemplo:
+#### Para iniciar GIT en la carpeta donde esta el proyecto (Se usa una sola vez). Ejemplo:
 ```Shell
 git init
 ```
