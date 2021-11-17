@@ -166,20 +166,20 @@ git fetch
 ```Shell
 git rm <archivo>
 ```
-# ¿Qué es un pull request?
+#### ¿Qué es un pull request?
 ```Shell
 Un pull request es una petición que el propietario de un fork de un repositorio hace al propietario del repositorio original para que este último incorpore los commits que están en el fork. 
 ```
-# Pasos para solicitar un pull request
+#### Pasos para solicitar un pull request
 
 ```Shell
-1. Ir al repositorio en *GitHub*.
-2. Darle click al boton llamado **"Pull Request"**.
+1. Ir al repositorio en GitHub.
+2. Darle click al boton llamado "Pull Request".
 3. Proveer todos los detalles necesarios que se hicieron en el archivo.
-4. Ahora enviar el **pull request**
+4. Ahora enviar el pull request
 ```
 
-# Explicar que son los Milestones
+#### Explicar que son los Milestones
 
 ```Shell
 Estas son categorías que se utilizan en las issues para tener un filtro más adecuado de la información.
