@@ -3,6 +3,13 @@
 
 #### Inicio
 
+
+| Indice |  |
+| --- | --- |
+| <a name="#git-head"></a> Git Head |
+| Git Status |
+
+
 #### Notas personales de Jaimar Angulo
 
 <a name="#comandos-en-git"></a>
