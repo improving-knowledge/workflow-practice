@@ -3,9 +3,7 @@
 
 #### Inicio
 
-<a name="#indice"></a> 
-
-Indice |  
+| Indice |  
 | ------ | 
 | ***[Comandos en Git](#comandos-en-git)*** |
 | ***[Git Head](#git-head)*** |
