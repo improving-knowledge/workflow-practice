@@ -172,19 +172,39 @@ Un pull request es una petición que el propietario de un fork de un repositorio
 ```
 #### Pasos para solicitar un pull request
 
-```Shell
-1. Ir al repositorio en GitHub.
-2. Darle click al boton llamado "Pull Request".
-3. Proveer todos los detalles necesarios que se hicieron en el archivo.
-4. Ahora enviar el pull request
+```Shell 
+1. Ir al repositorio en el que estamos trabajando en GitHub.
 ```
+#### **Observar la siguiente imagen** 
+![repositorio](img/1._.png)
+
+```Shell
+2. Darle click al repositorio que le vamos hacer el pull request.
+```
+#### **Observar la siguiente imagen**
+![repositorio](img/2._.png)
+
+```Shell
+3. Darle click a la opcion Pull request.
+```
+#### **Observar la siguiente imagen**
+
+![repositorio](img/3._.png)
+
+```Shell
+4.Darle click a la opcion New pull request
+```
+
+ #### **Observar la siguiente imagen**
+
+![repositorio](img/4._.png)
+
 
 #### Explicar que son los Milestones
 
 ```Shell
 Estas son categorías que se utilizan en las issues para tener un filtro más adecuado de la información.
 ```
-#### Observar la siguiente imagen 
-![repositorio](https://github.com/jaimarkas?tab=repositories)
+
 
 ***[Volver al Readme](README.md)***
