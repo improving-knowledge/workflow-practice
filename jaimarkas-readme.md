@@ -1,12 +1,13 @@
 
 <a name="#inicio"></a>
-### Inicio
 
-### Notas personales de Jaimar Angulo
+#### Inicio
+
+#### Notas personales de Jaimar Angulo
 
 <a name="#comandos-en-git"></a>
 
-### Comandos en Git
+#### Comandos en Git
 
 
 #### Para ver la version de git. Ejemplo:
@@ -29,8 +30,11 @@ git push origin master
 ```Shell
 git commit --amend -m "Texto que identifique porque se hizo el commit "
 ```
+***[Volver al inicio](#inicio)***
+
 <a name="#git-head"></a>
-GIT HEAD
+
+#### GIT HEAD
 
 #### Saca un archivo del commit. Ejemplo:
 ```Shell
@@ -48,9 +52,11 @@ git reset --hard HEAD^
 ```Shell
 git reset --hard HEAD^^
 ```
+***[Volver al inicio](#inicio)***
 
+<a name="#git-remote"></a>
 
-GIT REMOTE
+#### GIT REMOTE
 
 #### Agregar repositorio remoto. Ejemplo:
 ```Shell
@@ -76,9 +82,11 @@ git remote show origin
 ```Shell
 git remote prune origin
 ```
+***[Volver al inicio](#inicio)***
 
+<a name="#git-branch"></a>
 
-GIT BRANCH
+#### GIT BRANCH
 
 #### Crea un branch. Ejemplo:
 ```Shell
@@ -96,9 +104,11 @@ git branch -d <nameBranch>
 ```Shell
 git branch -D <nameBranch>
 ```
+***[Volver al inicio](#inicio)***
 
+<a name="#git-tag"></a>
 
-GIT TAG
+#### GIT TAG
 
 #### Muestra la lista de todos los tags. Ejemplo:
 ```Shell
@@ -109,8 +119,12 @@ git tag
 ```Shell
 git tag -a <version> -m "esta es la version x"
 ```
-GIT REBASE
-Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al dia con el master sin afectar al mismo.
+***[Volver al inicio](#inicio)***
+
+<a name="#git-rebase"></a>
+
+#### GIT REBASE  
+#### Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al dia con el master sin afectar al mismo.
 
 
 #### Une el branch actual con el master, esto no se puede ver como un merge. Ejemplo:
@@ -133,9 +147,11 @@ git rebase --abort
 ```Shell
 git rebase <nameBranch>
 ```
+***[Volver al inicio](#inicio)***
 
+<a name="#otros-comandos"></a>
 
-OTROS COMANDOS
+#### OTROS COMANDOS
 
 #### Lista un estado actual del repositorio con lista de archivos modificados o agregados. Ejemplo:
 ```Shell
@@ -173,6 +189,12 @@ git fetch
 ```Shell
 git rm <archivo>
 ```
+***[Volver al inicio](#inicio)***
+
+<a name="#informacion-sobre-pull-request"></a>
+
+#### Informacion sobre pull request
+
 #### ¿Qué es un pull request?
 ```Shell
 Un pull request es una petición que el propietario de un fork de un repositorio hace al propietario del repositorio original para que este último incorpore los commits que están en el fork. 
@@ -220,6 +242,10 @@ Un pull request es una petición que el propietario de un fork de un repositorio
 ![repositorio](img/6._.png)
 
 **Y asi finaliza los pasos para solicitar un _pull request_, los demas pasos quedan pendiente por el _dueño_ del proyecto.**
+
+<a name="#milestones"></a>
+
+#### Milestones
 
 #### Explicar que son los Milestones
 
