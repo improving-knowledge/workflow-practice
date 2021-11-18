@@ -1,6 +1,13 @@
-Notas personales de Jaimar Angulo
 
-Comandos en Git
+<a name="#inicio"></a>
+### Inicio
+
+### Notas personales de Jaimar Angulo
+
+<a name="#comandos-en-git"></a>
+
+### Comandos en Git
+
 
 #### Para ver la version de git. Ejemplo:
 ```Shell
@@ -22,7 +29,7 @@ git push origin master
 ```Shell
 git commit --amend -m "Texto que identifique porque se hizo el commit "
 ```
-
+<a name="#git-head"></a>
 GIT HEAD
 
 #### Saca un archivo del commit. Ejemplo:
@@ -219,4 +226,7 @@ Un pull request es una petición que el propietario de un fork de un repositorio
 ```Shell
 Estas son categorías que se utilizan en las issues para tener un filtro más adecuado de la información.
 ```
+
+***[Volver al inicio](#inicio)***
+
 ***[Volver al Readme](README.md)***
