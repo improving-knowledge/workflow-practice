@@ -184,5 +184,7 @@ Un pull request es una petición que el propietario de un fork de un repositorio
 ```Shell
 Estas son categorías que se utilizan en las issues para tener un filtro más adecuado de la información.
 ```
+#### Observar la siguiente imagen 
+![repositorio](https://github.com/jaimarkas?tab=repositories)
 
 ***[Volver al Readme](README.md)***
