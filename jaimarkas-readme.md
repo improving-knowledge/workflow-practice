@@ -194,17 +194,29 @@ Un pull request es una petición que el propietario de un fork de un repositorio
 ```Shell
 4.Darle click a la opcion New pull request
 ```
-
- #### **Observar la siguiente imagen**
+#### **Observar la siguiente imagen**
 
 ![repositorio](img/4._.png)
 
+```Shell
+5. Darle click a la opcion Create pull request
+```
+#### **Observar la siguiente imagen**
+
+![repositorio](img/5._.png)
+
+```Shell
+6. En la casilla del titulo, colocar la informarcion de los cambios que se hicieron y en la parte de abajo colocar la mayor descripcion posible sobre los cambios
+```
+#### **Observar la siguiente imagen**
+
+![repositorio](img/6._.png)
+
+**Y asi finaliza los pasos para solicitar un _pull request_, los demas pasos quedan pendiente por el _dueño_ del proyecto.**
 
 #### Explicar que son los Milestones
 
 ```Shell
 Estas son categorías que se utilizan en las issues para tener un filtro más adecuado de la información.
 ```
-
-
 ***[Volver al Readme](README.md)***
