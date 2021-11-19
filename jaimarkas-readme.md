@@ -3,6 +3,19 @@
 
 #### Inicio
 
+| Indice |  
+| ------ | 
+| ***[Comandos en Git](#comandos-en-git)*** |
+| ***[Git Head](#git-head)*** |
+| ***[Git Remote](#git-remote)*** |
+| ***[Git Branch](#git-branch)*** |
+| ***[Git Tag](#git-tag)*** |
+| ***[Git Rebase](#git-rebase)*** |
+| ***[Otros Comandos](#otros-comandos)*** |
+| ***[Pull request](#pull-request)*** |
+| ***[Milestones](#milestones)*** |
+
+
 #### Notas personales de Jaimar Angulo
 
 <a name="#comandos-en-git"></a>
@@ -191,9 +204,9 @@ git rm <archivo>
 ```
 ***[Volver al inicio](#inicio)***
 
-<a name="#informacion-sobre-pull-request"></a>
+<a name="#pull-request"></a>
 
-#### Informacion sobre pull request
+#### PULL REQUEST
 
 #### ¿Qué es un pull request?
 ```Shell
