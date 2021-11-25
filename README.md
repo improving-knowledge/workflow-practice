@@ -72,26 +72,26 @@ Ej.
 ```Shell
 git commit -am "Agregue la funcion eliminar"
 ```
-Pero, en proyectos mas grandes y complejos, es mejor utilizar los 
+Pero, en proyectos mas grandes y complejos, es mejor utilizar los
 estandares propuestos. Ej.
 ```Shell
 git commit
 ```
 Ustedes dirán  "y donde está el mensaje?". Pués al ejecutar el commit
 de esa manera, sin parametros ni nada, les abrirá un editor donde
-colocar una descripcion mas amplia de lo que hicieron. La siguiente 
-documentacion explica la forma de escribir la informacion del commit 
+colocar una descripcion mas amplia de lo que hicieron. La siguiente
+documentacion explica la forma de escribir la informacion del commit
 de una forma más detallada y explicita:
 
-- El mensaje de un commit consiste en 3 diferentes partes 
-separadas por una linea en blanco: el titulo, un cuerpo 
+- El mensaje de un commit consiste en 3 diferentes partes
+separadas por una linea en blanco: el titulo, un cuerpo
 opcional y un pie opcional. Algo como lo siguiente:
 
 -------------
 
-type: subject 
+type: subject
 
-body 
+body
 
 footer
 
@@ -100,7 +100,7 @@ footer
 El titulo consiste en el tipo y asunto del mensaje.
 Type / Tipo
 
-El asunto no debe contener mas de 50 caracteres, 
+El asunto no debe contener mas de 50 caracteres,
 debe iniciar con una letra mayuscula y no terminar con un punto.
 El tipo es contenido en el titulo y puede ser de alguno de los siguientes casos:
 
@@ -113,14 +113,14 @@ El tipo es contenido en el titulo y puede ser de alguno de los siguientes casos:
 - test: Se añadieron pruebas, refactorizacion de pruebas; Sin cambios en el codigo
 - chore: Actualizacion de tareas de build, configuracion del admin. de paquetes; sin cambios en el codigo
 
-Al escribir el cuerpo (Body), requerimos de una linea en blanco 
-entre el titulo y el cuerpo, ademas debemos limitar la longitud 
+Al escribir el cuerpo (Body), requerimos de una linea en blanco
+entre el titulo y el cuerpo, ademas debemos limitar la longitud
 de cada linea a no mas de 72 caracteres.
 
-El pie es opcional al igual que el cuerpo, pero este es usado 
+El pie es opcional al igual que el cuerpo, pero este es usado
 para el seguimiento de los IDs con incidencias. Ej:
 
-Resolves: #6113 
+Resolves: #6113
 Issues: #456, #789
 
 Plantilla ejemplo:
@@ -131,10 +131,16 @@ feat: Ultima documentacion del Readme
 
 Se agregaron comandos para solucionar conflictos <br />
 ademas de la informacion sobre las plantillas de <br />
-los mensajes largos en los commit 
+los mensajes largos en los commit
 
 Issue: #123
 
 --------------------------------------------------------
 
 ***[Contribucion de Jaimar Angulo](jaimarkas-readme.md)***
+
+--------------------------------------------------------
+
+***[Notas personales de Bresmar Bermudez](Bresmar-readme.md)***
+
+--------------------------------------------------------
