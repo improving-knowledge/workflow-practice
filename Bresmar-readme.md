@@ -1,4 +1,4 @@
-### **Notas personales de: Bresmar Bermúdez**:
+## **Notas personales de: Bresmar Bermúdez**: 📌
 >*Comandos aprendidos en el curso de Git y Github*
 
 **COMANDOS PARA LA INTERACCIÓN BÁSICA**:
@@ -99,6 +99,28 @@ git diff
 ```Shell
 git fetch
 ```
+----------------------------------------------------------------------------------
+## ¿Qué es un ***Pull Request***? 📌
+
+```Shell
+Un pull request es una petición que el propietario de un fork de un repositorio hace al propietario del repositorio original para que este último incorpore los commits que están en el fork. En el caso que nos ocupa, el usuario `Bresmar` le enviará la petición a la organización `aprendiendo-github` para que este último incorpore los commits que tiene en su fork.
+```
+### ¿Cuales son sus pasos?
+Para hacer un pull request se deben seguir los siguientes pasos:
+```Shell
+1. Ve a tu cuenta de GitHub y selecciona el repositorio donde deseas hacer la petición.
+2. Verás un botón llamado "Pull request", has clic en él.
+3. Presiona "New pull request" para crear el nuevo pull request
+4. Has clic en el boton "Create pull request"
+5. Colocale un titulo y una descripción en las areas correspondientes para generar el comentario.
+6. Vuelve hacer clic en "Create pull request" para finalizar y esperar ser evaluado por el responsable del proyecto, quien decide si se aceptan tus cambios (commits) o no.
+```
+
+## ¡Bono Extra!...¿Que son los Milestones? 🎁
+```Shell
+Son una manera de agupar issues en categorias para filtrar mejor la información
+```
 --------------------------------------------------
+
 ***[Volver al archivo README](README.md)***
 --------------------------------------------------
