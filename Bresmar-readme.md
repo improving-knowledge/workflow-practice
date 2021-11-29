@@ -1,3 +1,7 @@
+<a name="#inicio"></a>
+
+#### Inicio
+
 ## **Notas personales de: Bresmar Bermúdez**: 📌
 >*Comandos aprendidos en el curso de Git y Github*
 
@@ -21,6 +25,7 @@ git commit -m "Archivo index.html modificado"
 ```Shell
 git status
 ```
+***[Volver al inicio](#inicio)***
 
 **CONFIGURACIÓN BÁSICA:**
 
@@ -99,6 +104,7 @@ git diff
 ```Shell
 git fetch
 ```
+***[Volver al inicio](#inicio)***
 ----------------------------------------------------------------------------------
 ## ¿Qué es un ***Pull Request***? 📌
 
@@ -120,6 +126,7 @@ Para hacer un pull request se deben seguir los siguientes pasos:
 ```Shell
 Son una manera de agupar issues en categorias para filtrar mejor la información
 ```
+***[Volver al inicio](#inicio)***
 --------------------------------------------------
 
 ***[Volver al archivo README](README.md)***
