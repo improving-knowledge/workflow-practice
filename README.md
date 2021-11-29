@@ -121,7 +121,7 @@ El pie es opcional al igual que el cuerpo, pero este es usado
 para el seguimiento de los IDs con incidencias. Ej:
 
 Resolves: #6113
-Issues: #456, #789
+Closes: #456, #789
 
 Plantilla ejemplo:
 
