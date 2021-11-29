@@ -120,8 +120,8 @@ de cada linea a no mas de 72 caracteres.
 El pie es opcional al igual que el cuerpo, pero este es usado
 para el seguimiento de los IDs con incidencias. Ej:
 
-Resolves: #6113
-Closes: #456, #789
+Resolve: #6113
+Closes: #456, #789, #45
 
 Plantilla ejemplo:
 
@@ -133,7 +133,7 @@ Se agregaron comandos para solucionar conflictos <br />
 ademas de la informacion sobre las plantillas de <br />
 los mensajes largos en los commit
 
-Issue: #123
+Resolve: #123
 
 --------------------------------------------------------
 
