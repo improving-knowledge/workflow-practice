@@ -4,15 +4,15 @@
 
 | ## Indice de Contenido |
 | :-----------------------------------------:|
-| ***[COMANDOS PARA LA INTERACCION BASICA](#comandos-para-la-interacción-básica)*** |
-| ***[CONFIGURACIÓN BASICA](#configuración-básica)*** |
-| ***[OTROS COMANDOS](#otros-comandos)*** |
-| ***[¿QUÉ ES UN PULL REQUEST?](#qué-es-un-pull-request-)*** |
-| ***[¿CUALES SON SUS PASOS?](#cuales-son-sus-pasos)*** |
-| ***[¿QUÉ SON LOS MILESTONES?](#bono-extraque-son-los-milestones-)*** |
+| ***[Comandos para la Interacción Básica](#comandos-para-la-interacción-básica)*** |
+| ***[Configuración Básica](#configuración-básica)*** |
+| ***[Otros Comandos](#otros-comandos)*** |
+| ***[¿Qué es un Pull Request?](#qué-es-un-pull-request-)*** |
+| ***[¿Cuales son sus Pasos?](#cuales-son-sus-pasos)*** |
+| ***[¿Qué son los Milestones?](#bono-extraque-son-los-milestones-)*** |
 
 
-## **Notas personales de: Bresmar Bermúdez**: 📌
+# **Notas Personales de: Bresmar Bermúdez**: 📌
 >*Comandos aprendidos en el curso de Git y Github*
 
 <a name="#comandos-para-la-interacción-básica"></a>
@@ -129,7 +129,7 @@ Un pull request es una petición que el propietario de un fork de un repositorio
 ```
 <a name="#cuales-son-sus-pasos"></a>
 
-### ¿Cuales son sus pasos?
+## ¿Cuales son sus pasos?
 Para hacer un pull request se deben seguir los siguientes pasos:
 ```Shell
 1. Ve a tu cuenta de GitHub y selecciona el repositorio donde deseas hacer la petición.
@@ -151,4 +151,5 @@ Son una manera de agupar issues en categorias para filtrar mejor la información
 --------------------------------------------------
 
 ***[Volver al archivo README](README.md)***
+
 --------------------------------------------------
