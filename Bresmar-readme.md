@@ -2,13 +2,14 @@
 
 #### Inicio
 
-## Indice de Contenido
+| ## Indice de Contenido |
+| :-----------------------------------------:|
 | ***[COMANDOS PARA LA INTERACCION BASICA](#comandos-para-la-interacción-básica)*** |
 | ***[CONFIGURACIÓN BASICA](#configuración-básica)*** |
 | ***[OTROS COMANDOS](#otros-comandos)*** |
 | ***[¿QUÉ ES UN PULL REQUEST?](#qué-es-un-pull-request-)*** |
 | ***[¿CUALES SON SUS PASOS?](#cuales-son-sus-pasos)*** |
-| ***[¿QUÉ SON LOS MILESTONES?](#qué-son-los-milestones-)*** |
+| ***[¿QUÉ SON LOS MILESTONES?](#bono-extraque-son-los-milestones-)*** |
 
 
 ## **Notas personales de: Bresmar Bermúdez**: 📌
@@ -139,7 +140,7 @@ Para hacer un pull request se deben seguir los siguientes pasos:
 6. Vuelve hacer clic en "Create pull request" para finalizar y esperar ser evaluado por el responsable del proyecto, quien decide si se aceptan tus cambios (commits) o no.
 ```
 
-<a name="#qué-son-los-milestones-"></a>
+<a name="#bono-extraque-son-los-milestones-"></a>
 
 ## ¡Bono Extra!...¿Que son los Milestones? 🎁
 ```Shell
