@@ -2,9 +2,19 @@
 
 #### Inicio
 
+## Indice de Contenido
+|***[COMANDOS PARA LA INTERACCION BASICA](#comandos-para-la-interacción-básica)***|
+|***[CONFIGURACIÓN BASICA](#CONFIGURACIÓN-BASICA)***|
+|***[OTROS COMANDOS](#otros-comandos)***|
+|***[¿QUÉ ES UN PULL REQUEST?](#¿QUE-ES-UN-PULL-REQUEST)***|
+|***[¿CUALES SON SUS PASOS?](#¿CUALES-SON-SUS-PASOS?)***|
+|***[¿QUÉ SON LOS MILESTONES?](#¿QUE-SON-LOS-MILESTONES?)***|
+
+
 ## **Notas personales de: Bresmar Bermúdez**: 📌
 >*Comandos aprendidos en el curso de Git y Github*
 
+<a name="#comandos-para-la-interaccion-basica"></a>
 **COMANDOS PARA LA INTERACCIÓN BÁSICA**:
 
 #### Agregar un archivo a ser preparado para un commit. Ejemplo:
@@ -27,6 +37,7 @@ git status
 ```
 ***[Volver al inicio](#inicio)***
 
+<a name="#CONFIGURACIÓN-BASICA"></a>
 **CONFIGURACIÓN BÁSICA:**
 
 #### Configurar el nombre que sale en los commits. Ejemplo:
@@ -38,6 +49,7 @@ git config --global user.name "Bresmar Cortez"
 git config --global user.email Bresmarcortez@gmail.com
 ```
 
+<a name="#otros-comandos"></a>
 **OTROS COMANDOS:**
 
 #### Ver el historial de los commit hechos. Ejemplo:
@@ -106,12 +118,16 @@ git fetch
 ```
 ***[Volver al inicio](#inicio)***
 
+<a name="#¿QUE-ES-UN-PULL-REQUEST"></a>
+
 ----------------------------------------------------------------------------------
 ## ¿Qué es un ***Pull Request***? 📌
 
 ```Shell
 Un pull request es una petición que el propietario de un fork de un repositorio hace al propietario del repositorio original para que este último incorpore los commits que están en el fork. En el caso que nos ocupa, el usuario `Bresmar` le enviará la petición a la organización `aprendiendo-github` para que este último incorpore los commits que tiene en su fork.
 ```
+<a name="#¿CUALES-SON-SUS-PASOS"></a>
+
 ### ¿Cuales son sus pasos?
 Para hacer un pull request se deben seguir los siguientes pasos:
 ```Shell
@@ -122,6 +138,8 @@ Para hacer un pull request se deben seguir los siguientes pasos:
 5. Colocale un titulo y una descripción en las areas correspondientes para generar el comentario.
 6. Vuelve hacer clic en "Create pull request" para finalizar y esperar ser evaluado por el responsable del proyecto, quien decide si se aceptan tus cambios (commits) o no.
 ```
+
+<a name="#¿QUE-SON-LOS-MILESTONES"></a>
 
 ## ¡Bono Extra!...¿Que son los Milestones? 🎁
 ```Shell
