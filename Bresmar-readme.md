@@ -2,10 +2,21 @@
 
 #### Inicio
 
-## **Notas personales de: Bresmar Bermúdez**: 📌
+| ## Indice de Contenido |
+| :-----------------------------------------:|
+| ***[Comandos para la Interacción Básica](#comandos-para-la-interacción-básica)*** |
+| ***[Configuración Básica](#configuración-básica)*** |
+| ***[Otros Comandos](#otros-comandos)*** |
+| ***[¿Qué es un Pull Request?](#qué-es-un-pull-request-)*** |
+| ***[¿Cuales son sus Pasos?](#cuales-son-sus-pasos)*** |
+| ***[¿Qué son los Milestones?](#bono-extraque-son-los-milestones-)*** |
+
+
+# **Notas Personales de: Bresmar Bermúdez**: 📌
 >*Comandos aprendidos en el curso de Git y Github*
 
-**COMANDOS PARA LA INTERACCIÓN BÁSICA**:
+<a name="#comandos-para-la-interacción-básica"></a>
+## **COMANDOS PARA LA INTERACCIÓN BÁSICA**:
 
 #### Agregar un archivo a ser preparado para un commit. Ejemplo:
 ```Shell
@@ -27,7 +38,8 @@ git status
 ```
 ***[Volver al inicio](#inicio)***
 
-**CONFIGURACIÓN BÁSICA:**
+<a name="#configuración-básica"></a>
+## **CONFIGURACIÓN BÁSICA:**
 
 #### Configurar el nombre que sale en los commits. Ejemplo:
 ```Shell
@@ -38,7 +50,8 @@ git config --global user.name "Bresmar Cortez"
 git config --global user.email Bresmarcortez@gmail.com
 ```
 
-**OTROS COMANDOS:**
+<a name="#otros-comandos"></a>
+## **OTROS COMANDOS:**
 
 #### Ver el historial de los commit hechos. Ejemplo:
 ```Shell
@@ -105,13 +118,18 @@ git diff
 git fetch
 ```
 ***[Volver al inicio](#inicio)***
+
+<a name="#qué-es-un-pull-request-"></a>
+
 ----------------------------------------------------------------------------------
 ## ¿Qué es un ***Pull Request***? 📌
 
 ```Shell
 Un pull request es una petición que el propietario de un fork de un repositorio hace al propietario del repositorio original para que este último incorpore los commits que están en el fork. En el caso que nos ocupa, el usuario `Bresmar` le enviará la petición a la organización `aprendiendo-github` para que este último incorpore los commits que tiene en su fork.
 ```
-### ¿Cuales son sus pasos?
+<a name="#cuales-son-sus-pasos"></a>
+
+## ¿Cuales son sus pasos?
 Para hacer un pull request se deben seguir los siguientes pasos:
 ```Shell
 1. Ve a tu cuenta de GitHub y selecciona el repositorio donde deseas hacer la petición.
@@ -122,12 +140,16 @@ Para hacer un pull request se deben seguir los siguientes pasos:
 6. Vuelve hacer clic en "Create pull request" para finalizar y esperar ser evaluado por el responsable del proyecto, quien decide si se aceptan tus cambios (commits) o no.
 ```
 
+<a name="#bono-extraque-son-los-milestones-"></a>
+
 ## ¡Bono Extra!...¿Que son los Milestones? 🎁
 ```Shell
 Son una manera de agupar issues en categorias para filtrar mejor la información
 ```
 ***[Volver al inicio](#inicio)***
+
 --------------------------------------------------
 
 ***[Volver al archivo README](README.md)***
+
 --------------------------------------------------
