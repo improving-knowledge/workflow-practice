@@ -105,6 +105,7 @@ git diff
 git fetch
 ```
 ***[Volver al inicio](#inicio)***
+
 ----------------------------------------------------------------------------------
 ## ¿Qué es un ***Pull Request***? 📌
 
@@ -127,6 +128,7 @@ Para hacer un pull request se deben seguir los siguientes pasos:
 Son una manera de agupar issues en categorias para filtrar mejor la información
 ```
 ***[Volver al inicio](#inicio)***
+
 --------------------------------------------------
 
 ***[Volver al archivo README](README.md)***
