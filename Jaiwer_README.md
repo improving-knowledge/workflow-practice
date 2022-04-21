@@ -3,10 +3,8 @@
 
 ## Comandos GIT importantes (Iteración Básica): Notas personasles: Jaiwer Castillo
 
-#### Para descargar un repositorio desde un servidor remoto. Ejemplo: Github.
+#### Para descargar un repositorio desde un servidor remoto. git clone + 'URL' del repo ya sea por SSH o HTPPS (Ésto para clonar).  Ejemplo: Github.
 ```Shell
-git clone + 'URL' del repo ya sea por SSH o HTPPS (Ésto para clonar). 
-
 git clone
 
 $ git clone git@github.com:jaiwerc/Prueba-de-fusiones.git
@@ -69,13 +67,19 @@ git commit --amend -m "Texto que identifique por que se hizo el commit"
 git commit --amend -m "Mejorando la lista de comandos git"
 ```
 
+
+### Para cambiarse de una rama a otra. Ejemplo:
+```ssh 
+git checkout "nombre de la rama"
+$ git checkout master
+```
 --------------------------------------------
 
 ## Estructura de los Mensajes en los COMMITS
 
-Al crear un commit luego de añadir los archivos modificados/creados
-y estas por agregar informacion sobre lo que hiciste, lo mas práctico
-es escribir unas pocas palabras para informar sobre el cambio.
+Al creun commit luego de añadir los archivos modificados/creados
+y stas por agregar informacion sobre lo que hiciste, lo mas práctico
+e escribir unas pocas palabras para informar sobre el cambio.
 Ej.
 ```Shell
 git commit -am "Agregue la funcion eliminar"
