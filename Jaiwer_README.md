@@ -1,7 +1,7 @@
 # workflow-practice
 > Repositorio de prácticas para el flujo de trabajo en Github. Superplus3
 
-## Comandos GIT importantes (Iteración Básica): Notas personasles: Jaiwer Castillo
+## Comandos GIT importantes (Iteración Básica)
 
 #### Para descargar un repositorio desde un servidor remoto. git clone + 'URL' del repo ya sea por SSH o HTPPS (Ésto para clonar).  Ejemplo: Github.
 ```Shell
