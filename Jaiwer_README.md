@@ -1,23 +1,29 @@
 # workflow-practice
 > Repositorio de prácticas para el flujo de trabajo en Github. Superplus3
 
-## Comandos GIT importantes:
+## Comandos GIT importantes (Iteración Básica)
 
-#### Para descargar un repositorio desde un servidor remoto. Ejemplo: Github.
+#### Para descargar un repositorio desde un servidor remoto. git clone + 'URL' del repo ya sea por SSH o HTPPS (Ésto para clonar).  Ejemplo: Github.
 ```Shell
-git clone git@github.com:pulidovpe/practica_workflow.git
+git clone
+
+$ git clone git@github.com:jaiwerc/Prueba-de-fusiones.git
+
+Otra opción sería descargar desde de la plataforma "GitHub" con download.zip
 ```
-#### Muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados. Ejemplo:
+#### Para mostrar archivos modificados usamos:
 ```Shell
 git status
 ```
 #### Para agregar un nuevo archivo o uno modificado. Ejemplo:
 ```Shell
-git add archivo.txt
+git add 
+
+$ git add touch 1.txt
 ```
 #### Para agregar varios archivos. Ejemplo:
 ```Shell
-git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt
+$ git add archivo.txt carpeta/otro_archivo.txt otra_carpeta/otro_archivo.txt
 ```
 #### Para agregar todos los archivos del proyecto. Ejemplo:
 ```Shell
@@ -41,7 +47,7 @@ git init
 ```Shell
 git commit
 ```
-#### Para cargar en el HEAD los cambios realizados y establecer el mensaje del commit. Ejemplo:
+#### Para cargar en el   los cambios realizados y establecer el mensaje del commit. Ejemplo:
 ```ssh
 git commit -m "Texto que identifique por que se hizo el commit"
 git commit -m "Modificando archivo README.md"
@@ -60,14 +66,32 @@ git commit -a
 git commit --amend -m "Texto que identifique por que se hizo el commit"
 git commit --amend -m "Mejorando la lista de comandos git"
 ```
-
+### Para crear una nueva rama (branch). Ejemplo
+```ssh
+git checkout -b "nombre de la rama"
+$ git checkout -b experimental
+```
+### Para cambiarse de una rama a otra (branch). Ejemplo:
+```ssh 
+git checkout "nombre de la rama"
+$ git checkout master
+```
+### Para fusionar ramas. Tenemos que ubicarnos en la rama principal "master" y luego ejecutar el comando para mezclar. Ejemplo
+```ssh
+$ git checkout master. Rama principal
+$ git merge experimental. Rama a fusionar
+```
+### Para eliminar una rama (branch). Ejemplo
+```ssh
+git checkout -d "rama"
+```
 --------------------------------------------
 
 ## Estructura de los Mensajes en los COMMITS
 
-Al crear un commit luego de añadir los archivos modificados/creados
-y estas por agregar informacion sobre lo que hiciste, lo mas práctico
-es escribir unas pocas palabras para informar sobre el cambio.
+Al creun commit luego de añadir los archivos modificados/creados
+y stas por agregar informacion sobre lo que hiciste, lo mas práctico
+e escribir unas pocas palabras para informar sobre el cambio.
 Ej.
 ```Shell
 git commit -am "Agregue la funcion eliminar"
@@ -148,4 +172,3 @@ Resolve: #123
 ***[Notas personales de Jaiwer Castillo](Jaiwer_README.md)***
 
 --------------------------------------------------------
-
