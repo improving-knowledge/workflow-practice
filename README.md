@@ -144,3 +144,8 @@ Resolve: #123
 ***[Notas personales de Bresmar Bermudez](Bresmar-readme.md)***
 
 --------------------------------------------------------
+
+***[Notas personales de Jaiwer Castillo](Jaiwer_README.md)***
+
+--------------------------------------------------------
+
