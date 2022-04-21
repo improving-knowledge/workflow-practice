@@ -66,12 +66,24 @@ git commit -a
 git commit --amend -m "Texto que identifique por que se hizo el commit"
 git commit --amend -m "Mejorando la lista de comandos git"
 ```
-
-
-### Para cambiarse de una rama a otra. Ejemplo:
+### Para crear una nueva rama (branch). Ejemplo
+```ssh
+git checkout -b "nombre de la rama"
+$ git checkout -b experimental
+```
+### Para cambiarse de una rama a otra (branch). Ejemplo:
 ```ssh 
 git checkout "nombre de la rama"
 $ git checkout master
+```
+### Para fusionar ramas. Tenemos que ubicarnos en la rama principal "master" y luego ejecutar el comando para mezclar. Ejemplo
+```ssh
+$ git checkout master. Rama principal
+$ git merge experimental. Rama a fusionar
+```
+### Para eliminar una rama (branch). Ejemplo
+```ssh
+git checkout -d "rama"
 ```
 --------------------------------------------
 
@@ -158,4 +170,5 @@ Resolve: #123
 --------------------------------------------------------
 
 ***[Notas personales de Jaiwer Castillo](Jaiwer_README.md)***
+
 --------------------------------------------------------
