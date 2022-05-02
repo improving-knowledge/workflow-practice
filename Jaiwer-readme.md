@@ -139,6 +139,19 @@ Es un "feature" que permite a los desarrolladores colaborar fácilmente en comun
 
 ![repositorio](img/8._.jpg)
 
+3. Luego de que nos confirme que sí podemos crear un new pull request, procedemos a crearlo. Damos click a "Create pull request"  
+
+![repositorio](img/9._.jpg)
+
+4. Por ultimo colocamos el título y escribimos un comentario para que el dueño del repo vea nuestra solicitud del Pull Request.
+
+![repositorio](img/10._.jpg)
+
+Estos serían todos los pasos.s Ahora ya sabemos como podriamos pedir una solicitud para un Pûll Request.
+
+#### ¿Que son Milestones?
+
+Son etiquetas que contiene información colocada por un usuario, donde, dentro también se colocan issue que mayormente son problemas por resolver. Los milestones, también te permiten ver la fecha dada para la entrega de un issue. 
 
 --------------------------------------------------------
 
