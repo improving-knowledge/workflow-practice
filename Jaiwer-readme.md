@@ -145,11 +145,11 @@ Es un "feature" que permite a los desarrolladores colaborar fácilmente en comun
 
 ![repositorio](img/9._.jpg)
 
-4. Por ultimo colocamos el título y escribimos un comentario para que el dueño del repo vea nuestra solicitud del Pull Request.
+4. Por ultimo colocamos el título y escribimos un comentario para que el dueño del repo vea nuestra solicitud del Pull Request y damos click a "Create pull request" para confirmar la creación.
 
 ![repositorio](img/10._.jpg)
 
-Estos serían todos los pasos.s Ahora ya sabemos como podriamos pedir una solicitud para un Pûll Request.
+Estos serían todos los pasos. Ahora ya sabemos como podriamos pedir una solicitud para un Pull Request.
 
 #### ¿Que son Milestones?
 
