@@ -125,6 +125,8 @@ git remote add [nombre del remoto]
 $ git remote add origin
 ```
 
+***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+
 #### ¿Que es Pull Request?
 
 Es un "feature" que permite a los desarrolladores colaborar fácilmente en comunidades como GitHub o Bitbucket. 
