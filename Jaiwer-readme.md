@@ -9,6 +9,7 @@ git init
 
 #### Luego de haber iniciado con "git init" viene la iteración básica. 
 
+#### Iteración básica
 
 #### Git status. Te permite ver el estado de los archivos del repo. Si haces algun cambio y quieres estar seguro si se completó, basta con colocar este comando y te muestra: 
 ```Shell
@@ -34,10 +35,6 @@ git add [nombre de archivo]/[nombre de archivo]/[nombre de archivo]
 $ git add archivo1.txt/archivo2.txt/archivo3.txt
 ```
 
-
-***[Volver al inicio](Jaiwer-readme.md)*** 
-
-
 #### Git commit. Inserta los archivos que se encuentren en el staging área y los coloca en el repositorio. El "git add" junto al "git commit" se define como el proceso básico de GIT. Hay diferentes formas de usar el "git commit". Ejemplo:
 ```Shell 
 git commit -m "nombre del título de commit"
@@ -49,6 +46,8 @@ $ git commit -m "Base de proyecto de práctica"
 ```Shell 
 git commit --amend 
 ```
+
+***[Volver al inicio](#notas-personales-de-jaiwer-castillo)***
 
 #### Git clone. Crea una copia de un repositorio existente en tu terminal. Clonar es el camino más común para obtener una copia de un proyecto. Git clone se usa así: 
 ```Shell
@@ -71,10 +70,6 @@ git checkout [nombre de la rama]
 $ git checkout experimental
 ```
 
-
-***[Volver al inicio](Jaiwer-readme.md)*** 
-
-
 #### Git branch. Te permite crear una rama nueva. Una vez creada, debes ubicarte en ella para comenzar a trabajar en tu nueva rama. Su iteración es: 
 
 #### Para crear la rama:
@@ -92,7 +87,7 @@ $ git checkout experimental
 ```
 
 
-***[Volver al inicio](Jaiwer-readme.md)*** 
+***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
 
 
 #### Git log. Te ayuda a explorar las previas revisiones de un proyecto: 
@@ -131,7 +126,7 @@ $ git remote add origin
 ```
 --------------------------------------------------------
 
-***[Volver al inicio](Jaiwer-readme.md)*** 
+***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
 
 --------------------------------------------------------
 
