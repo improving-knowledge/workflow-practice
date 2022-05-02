@@ -124,6 +124,22 @@ git remote add [nombre del remoto]
 
 $ git remote add origin
 ```
+
+#### ¿Que es Pull Request?
+
+Es un "feature" que permite a los desarrolladores colaborar fácilmente en comunidades como GitHub o Bitbucket. 
+
+#### Pasos para hacer un Pull Request (Guiarse con imágenes):
+
+1. Ir al forked del repo que le queremos solicitar el Pull Request y dar click donde dice Pull Request
+
+![repositorio](img/7._.jpg)
+
+2. Luego, presionar donde dice "New pull request"
+
+![repositorio](img/8._.jpg)
+
+
 --------------------------------------------------------
 
 ***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
