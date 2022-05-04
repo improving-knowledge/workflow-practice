@@ -124,6 +124,37 @@ git remote add [nombre del remoto]
 
 $ git remote add origin
 ```
+
+***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+
+#### ¿Que es Pull Request?
+
+Es un "feature" que permite a los desarrolladores colaborar fácilmente en comunidades como GitHub o Bitbucket. 
+
+#### Pasos para hacer un Pull Request (Guiarse con imágenes):
+
+1. Ir al forked del repo que le queremos solicitar el Pull Request y dar click donde dice Pull Request
+
+![repositorio](img/7._.jpg)
+
+2. Luego, presionar donde dice "New pull request"
+
+![repositorio](img/8._.jpg)
+
+3. Luego de que nos confirme que sí podemos crear un new pull request, procedemos a crearlo. Damos click a "Create pull request"  
+
+![repositorio](img/9._.jpg)
+
+4. Por ultimo colocamos el título y escribimos un comentario para que el dueño del repo vea nuestra solicitud del Pull Request y damos click a "Create pull request" para confirmar la creación.
+
+![repositorio](img/10._.jpg)
+
+Estos serían todos los pasos. Ahora ya sabemos como podriamos pedir una solicitud para un Pull Request.
+
+#### ¿Que son Milestones?
+
+Son etiquetas que contiene información colocada por un usuario, donde, dentro también se colocan issue que mayormente son problemas por resolver. Los milestones, también te permiten ver la fecha dada para la entrega de un issue. 
+
 --------------------------------------------------------
 
 ***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
