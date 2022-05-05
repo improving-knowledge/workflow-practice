@@ -1,3 +1,34 @@
+# INICIO
+
+### ÍNDICE	
+
+| ***[COMANDOS APRENDIDOS](#comandos-aprendidos)*** |
+
+----------------------------
+| ***[ITERACIÓN BÁSICA](#iteración-básica)*** |
+
+----------------------------
+| ***[GIT CLONE](#git-clone)*** |
+
+----------------------------
+| ***[GIT BRANCH](#git-branch)*** |
+
+----------------------------
+| ***[GIT LOG](#git-log)*** |
+
+----------------------------
+| ***[GIT MERGE, GIT PULL, GIT PUSH Y GIT REMOTE](#git-merge-git-pull-git-pull-git-remote)*** |
+
+----------------------------
+|  ***[¿QUÉ ES UN PULL REQUEST?](#¿qué-es-pull-request?)*** |
+
+----------------------------
+|  ***[PASOS PARA SOLICITAR UN PULL REQUEST](#pasos-para-hacer-un-pull-request-guiarse-con-imágenes)*** |
+
+----------------------------
+| ***[¿QUÉ SON MILESTONES?](#¿que-son-milestones?)*** |
+
+----------------------------------------
 # Notas personales de Jaiwer Castillo
 
 ## Comandos aprendidos
@@ -47,7 +78,7 @@ $ git commit -m "Base de proyecto de práctica"
 git commit --amend 
 ```
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)***
+***[Volver al inicio](#inicio)***
 
 #### GIT CLONE
 
@@ -71,7 +102,7 @@ git checkout [nombre de la rama]
 
 $ git checkout experimental
 ```
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+***[Volver al inicio](#inicio)*** 
 
 #### GIT BRANCH
 
@@ -91,7 +122,7 @@ git checkout [nombre de la rama creada]
 $ git checkout experimental 
 ```
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+***[Volver al inicio](#inicio)***
 
 #### GIT LOG
 
@@ -131,7 +162,7 @@ git remote add [nombre del remoto]
 $ git remote add origin
 ```
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+***[Volver al inicio](#inicio)***
 
 #### ¿Que es Pull Request?
 
@@ -164,7 +195,7 @@ Son etiquetas que contiene información colocada por un usuario, donde, dentro t
 
 --------------------------------------------------------
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+***[Volver al inicio](#inicio)***
 
 --------------------------------------------------------
 
