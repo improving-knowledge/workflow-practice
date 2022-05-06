@@ -1,4 +1,37 @@
+# INICIO
+
+### ÍNDICE	
+
+| ***[COMANDOS APRENDIDOS](#comandos-aprendidos)*** |
+
+----------------------------
+| ***[ITERACIÓN BÁSICA](#iteración-básica)*** |
+
+----------------------------
+| ***[GIT CLONE](#git-clone)*** |
+
+----------------------------
+| ***[GIT BRANCH](#git-branch)*** |
+
+----------------------------
+| ***[GIT LOG](#git-log)*** |
+
+----------------------------
+| ***[GIT MERGE, GIT PULL, GIT PUSH Y GIT REMOTE](#git-merge-git-pull-git-push-git-remote)*** |
+
+----------------------------
+|  ***[PULL REQUEST](#pull-request)*** |
+
+----------------------------
+|  ***[PASOS PARA SOLICITAR UN PULL REQUEST](#pasos-para-hacer-un-pull-request-guiarse-con-imágenes)*** |
+
+----------------------------
+| ***[MILESTONES](#milestones)*** |
+
+----------------------------------------
 # Notas personales de Jaiwer Castillo
+
+<a name= "#comandos-aprendidos"></a> 
 
 ## Comandos aprendidos
 
@@ -9,7 +42,9 @@ git init
 
 #### Luego de haber iniciado con "git init" viene la iteración básica. 
 
-#### Iteración básica
+<a name= "#iteracion-basica"></a> 
+
+#### ITERACIÓN BÁSICA
 
 #### Git status. Te permite ver el estado de los archivos del repo. Si haces algun cambio y quieres estar seguro si se completó, basta con colocar este comando y te muestra: 
 ```Shell
@@ -47,7 +82,11 @@ $ git commit -m "Base de proyecto de práctica"
 git commit --amend 
 ```
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)***
+***[Volver al inicio](#inicio)***
+
+<a name= "#git-clone"></a> 
+
+#### GIT CLONE
 
 #### Git clone. Crea una copia de un repositorio existente en tu terminal. Clonar es el camino más común para obtener una copia de un proyecto. Git clone se usa así: 
 ```Shell
@@ -69,6 +108,11 @@ git checkout [nombre de la rama]
 
 $ git checkout experimental
 ```
+***[Volver al inicio](#inicio)*** 
+
+<a name= "#git-branch"></a> 
+
+#### GIT BRANCH
 
 #### Git branch. Te permite crear una rama nueva. Una vez creada, debes ubicarte en ella para comenzar a trabajar en tu nueva rama. Su iteración es: 
 
@@ -86,9 +130,11 @@ git checkout [nombre de la rama creada]
 $ git checkout experimental 
 ```
 
+***[Volver al inicio](#inicio)***
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+<a name= "#git-log"></a> 
 
+#### GIT LOG
 
 #### Git log. Te ayuda a explorar las previas revisiones de un proyecto: 
 ```Shell 
@@ -100,36 +146,44 @@ git log
 $ git config --global alias.superlog "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 ```
 
-#### Git merge. Fusiona, permite integrar cambios de ramas diferentes en una sola: 
+<a name= "#git-merge-git-pull-git-push-git-remote"></a> 
+
+### GIT MERGE, GIT PULL, GIT PUSH, GIT REMOTE.
+
+#### GIT MERGE: Fusiona, permite integrar cambios de ramas diferentes en una sola: 
 ```Shell
 git merge branch1/branch2
 
 $ git merge experimental/experimental2
 ``` 
 
-#### Git pull. Es la versión automática de git fetch. Descarga la rama desde un repositorio remoto y luego lo fusiona con la rama actual.
+#### GIT PULL: Es la versión automática de git fetch. Descarga la rama desde un repositorio remoto y luego lo fusiona con la rama actual.
 ```Shell 
 git fetch + git merge = git pull
 ```
-#### Git push. Te permite mover una rama local a otro repositorio, usualmente es la forma de publicar las contribuciones en un servidor remoto.
+#### GIT PUSH: Te permite mover una rama local a otro repositorio, usualmente es la forma de publicar las contribuciones en un servidor remoto.
 ```Shell
 git push [nombre del remoto] [nombre de la rama]
 
 $ git push origin master
 ```
 
-#### Git remote. Te permite conectar repositorios locales y remotos. Sirve para que en lugar de poner la URL para realizar "fetch o pull", solo le asignaremos un nombre y así podremos llamar a esa conexión de manera rápida. Por defecto se llama "origin".
+#### GIT REMOTE: Te permite conectar repositorios locales y remotos. Sirve para que en lugar de poner la URL para realizar "fetch o pull", solo le asignaremos un nombre y así podremos llamar a esa conexión de manera rápida. Por defecto se llama "origin".
 ```Shell 
 git remote add [nombre del remoto]
 
 $ git remote add origin
 ```
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+***[Volver al inicio](#inicio)***
 
-#### ¿Que es Pull Request?
+<a name="#pull-request"></a>
+
+#### Pull Request
 
 Es un "feature" que permite a los desarrolladores colaborar fácilmente en comunidades como GitHub o Bitbucket. 
+
+<a name="#pasos-para-hacer-un-pull-request"></a>
 
 #### Pasos para hacer un Pull Request (Guiarse con imágenes):
 
@@ -151,16 +205,20 @@ Es un "feature" que permite a los desarrolladores colaborar fácilmente en comun
 
 Estos serían todos los pasos. Ahora ya sabemos como podriamos pedir una solicitud para un Pull Request.
 
-#### ¿Que son Milestones?
+<a name="#milestones"></a>
+
+#### Milestones
 
 Son etiquetas que contiene información colocada por un usuario, donde, dentro también se colocan issue que mayormente son problemas por resolver. Los milestones, también te permiten ver la fecha dada para la entrega de un issue. 
 
+
 --------------------------------------------------------
 
-***[Volver al inicio](#notas-personales-de-jaiwer-castillo)*** 
+***[Volver al inicio](#inicio)***
 
 --------------------------------------------------------
 
 ***[Regresar al archivo README](README.md)***
 
 --------------------------------------------------------
+
