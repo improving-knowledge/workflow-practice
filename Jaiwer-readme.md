@@ -17,19 +17,21 @@
 | ***[GIT LOG](#git-log)*** |
 
 ----------------------------
-| ***[GIT MERGE, GIT PULL, GIT PUSH Y GIT REMOTE](#git-merge-git-pull-git-pull-git-remote)*** |
+| ***[GIT MERGE, GIT PULL, GIT PUSH Y GIT REMOTE](#git-merge-git-pull-git-push-git-remote)*** |
 
 ----------------------------
-|  ***[¿QUÉ ES UN PULL REQUEST?](#¿qué-es-pull-request?)*** |
+|  ***[PULL REQUEST](#pull-request)*** |
 
 ----------------------------
 |  ***[PASOS PARA SOLICITAR UN PULL REQUEST](#pasos-para-hacer-un-pull-request-guiarse-con-imágenes)*** |
 
 ----------------------------
-| ***[¿QUÉ SON MILESTONES?](#¿que-son-milestones?)*** |
+| ***[MILESTONES](#milestones)*** |
 
 ----------------------------------------
 # Notas personales de Jaiwer Castillo
+
+<a name= "#comandos-aprendidos"></a> 
 
 ## Comandos aprendidos
 
@@ -39,6 +41,8 @@ git init
 ```
 
 #### Luego de haber iniciado con "git init" viene la iteración básica. 
+
+<a name= "#iteracion-basica"></a> 
 
 #### ITERACIÓN BÁSICA
 
@@ -80,6 +84,8 @@ git commit --amend
 
 ***[Volver al inicio](#inicio)***
 
+<a name= "#git-clone"></a> 
+
 #### GIT CLONE
 
 #### Git clone. Crea una copia de un repositorio existente en tu terminal. Clonar es el camino más común para obtener una copia de un proyecto. Git clone se usa así: 
@@ -104,6 +110,8 @@ $ git checkout experimental
 ```
 ***[Volver al inicio](#inicio)*** 
 
+<a name= "#git-branch"></a> 
+
 #### GIT BRANCH
 
 #### Git branch. Te permite crear una rama nueva. Una vez creada, debes ubicarte en ella para comenzar a trabajar en tu nueva rama. Su iteración es: 
@@ -124,6 +132,8 @@ $ git checkout experimental
 
 ***[Volver al inicio](#inicio)***
 
+<a name= "#git-log"></a> 
+
 #### GIT LOG
 
 #### Git log. Te ayuda a explorar las previas revisiones de un proyecto: 
@@ -135,7 +145,10 @@ git log
 ```Shell
 $ git config --global alias.superlog "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 ```
-### GIT MERGE, GIT PULL, GIT PULL, GIT REMOTE.
+
+<a name= "#git-merge-git-pull-git-push-git-remote"></a> 
+
+### GIT MERGE, GIT PULL, GIT PUSH, GIT REMOTE.
 
 #### GIT MERGE: Fusiona, permite integrar cambios de ramas diferentes en una sola: 
 ```Shell
@@ -164,9 +177,13 @@ $ git remote add origin
 
 ***[Volver al inicio](#inicio)***
 
-#### ¿Que es Pull Request?
+<a name="#pull-request"></a>
+
+#### Pull Request
 
 Es un "feature" que permite a los desarrolladores colaborar fácilmente en comunidades como GitHub o Bitbucket. 
+
+<a name="#pasos-para-hacer-un-pull-request"></a>
 
 #### Pasos para hacer un Pull Request (Guiarse con imágenes):
 
@@ -188,7 +205,9 @@ Es un "feature" que permite a los desarrolladores colaborar fácilmente en comun
 
 Estos serían todos los pasos. Ahora ya sabemos como podriamos pedir una solicitud para un Pull Request.
 
-#### ¿Que son Milestones?
+<a name="#milestones"></a>
+
+#### Milestones
 
 Son etiquetas que contiene información colocada por un usuario, donde, dentro también se colocan issue que mayormente son problemas por resolver. Los milestones, también te permiten ver la fecha dada para la entrega de un issue. 
 
@@ -202,3 +221,4 @@ Son etiquetas que contiene información colocada por un usuario, donde, dentro t
 ***[Regresar al archivo README](README.md)***
 
 --------------------------------------------------------
+
